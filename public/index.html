@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrum Teams & Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .menu a {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        .container {
+            margin-top: 20px;
+        }
+        h2 {
+            font-size: 24px;
+        }
+        .login-form {
+            display: flex;
+            align-items: center;
+        }
+        .login-form label {
+            margin-right: 5px;
+        }
+        .login-form input {
+            margin-right: 10px;
+            padding: 5px;
+            border: 1px solid black;
+        }
+        .signup-btn {
+            margin-top: 10px;
+        }
+        .scrum-list {
+            margin-top: 30px;
+        }
+        .scrum-list ul {
+            list-style-type: disc;
+        }
+        .scrum-list li {
+            margin-bottom: 10px;
+        }
+        .scrum-list button {
+            margin-left: 10px;
+            padding: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu">
+        <a href="#">Dashboard</a>
+        <a href="#">Login</a>
+    </div>
+
+    <div class="container">
+        <h2>Login</h2>
+        <form class="login-form">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <button type="submit">Login</button>
+        </form>
+        <button class="signup-btn">Sign Up</button>
+    </div>
+
+    <div class="scrum-list">
+        <h2>Scrum Teams</h2>
+        <ul>
+            <li>Scrum Team A <button>Get Details</button></li>
+            <li>Scrum Team B <button>Get Details</button></li>
+            <li>Scrum Team C <button>Get Details</button></li>
+        </ul>
+    </div>
+
+</body>
+</html>
